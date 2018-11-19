@@ -2,7 +2,6 @@ package task.scRestApi.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 import task.scRestApi.model.Product;
 import task.scRestApi.repository.ProductRepository;
 

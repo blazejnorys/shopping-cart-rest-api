@@ -5,13 +5,8 @@ import org.springframework.web.bind.annotation.*;
 import task.scRestApi.dto.ShoppingCartDTO;
 import task.scRestApi.exception.ExceptionControllerAdvice;
 import task.scRestApi.model.Product;
-import task.scRestApi.model.ShoppingCart;
 import task.scRestApi.model.User;
-import task.scRestApi.service.ShoppingCartProductService;
 import task.scRestApi.service.ShoppingCartService;
-
-import java.util.List;
-import java.util.concurrent.ExecutionException;
 
 @RestController
 @RequestMapping("shoppingCart")

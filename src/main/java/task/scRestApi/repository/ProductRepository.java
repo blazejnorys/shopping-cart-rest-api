@@ -4,7 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 import task.scRestApi.model.Product;
-import task.scRestApi.model.User;
 
 import java.util.List;
 

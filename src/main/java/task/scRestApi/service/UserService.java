@@ -1,9 +1,9 @@
 package task.scRestApi.service;
 
-import task.scRestApi.model.User;
-import task.scRestApi.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import task.scRestApi.model.User;
+import task.scRestApi.repository.UserRepository;
 
 import java.util.List;
 
