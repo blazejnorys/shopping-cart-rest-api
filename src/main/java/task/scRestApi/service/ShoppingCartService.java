@@ -1,9 +1,7 @@
 package task.scRestApi.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.ImportAutoConfiguration;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.HttpClientErrorException;
 import task.scRestApi.dto.ShoppingCartDTO;
 import task.scRestApi.model.Product;
 import task.scRestApi.model.ShoppingCart;
@@ -12,19 +10,14 @@ import task.scRestApi.model.User;
 import task.scRestApi.repository.ShoppingCartRepository;
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.concurrent.ExecutionException;
 
 @Service
 public class ShoppingCartService {
 
     @Autowired
     private ShoppingCartRepository shoppingCartRepository;
-
     @Autowired
     private ProductService productService;
-
     @Autowired
     private ShoppingCartProductService shoppingCartProductService;
 

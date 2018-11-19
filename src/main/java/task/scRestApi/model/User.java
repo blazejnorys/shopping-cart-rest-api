@@ -12,7 +12,7 @@ import javax.persistence.*;
 public class User {
 
     @Id
-    @SequenceGenerator(name = "UserS", sequenceName = "user_s",allocationSize = 1)
+    @SequenceGenerator(name = "UserS", sequenceName = "user_s", allocationSize = 1)
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "UserS")
     @Column(name = "id")
     private Integer id;
